@@ -1,0 +1,19 @@
+DeviceID,DeviceType,Location,PatientID,Firmware,LastPatched,Manufacturer
+IOT-PM-001,Patient Monitor,Ward B - Bed 1,fa7dfb15-98af-4a78-8c9c-228dacf90153,v4.2.1,2024-06-18,Medtronic
+IOT-PM-002,Patient Monitor,ICU - Bay 1,202b3372-a1d4-42bd-b4b7-b712bd24dc98,v5.7.5,2024-03-03,Dräger
+IOT-PM-003,Patient Monitor,Ward A - Bed 2,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,v4.3.1,2024-04-02,Medtronic
+IOT-PM-004,Patient Monitor,Respiratory Unit - Bed 1,1324aa93-d950-4796-b3f7-e1ab68c6505f,v5.8.15,2024-05-02,GE Healthcare
+IOT-PM-005,Patient Monitor,Respiratory Unit - Bed 1,e2885dfa-4d69-4ec3-b2a1-f3713356637f,v4.0.10,2024-05-04,Medtronic
+IOT-PM-006,Patient Monitor,Cardiology - Bed 1,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,v5.7.12,2024-06-06,Dräger
+IOT-PM-007,Patient Monitor,Oncology - Bed 1,a694ecfc-e39e-46dc-876e-029b32ba0135,v4.8.8,2024-02-24,Dräger
+IOT-PM-008,Patient Monitor,Ward A - Bed 3,076688b0-f0d5-4c45-8bc6-b206684fa9ac,v5.9.5,2024-09-10,Medtronic
+IOT-PM-009,Patient Monitor,Ward B - Bed 1,bfd66698-4139-4e5e-9982-efa459aa9dca,v2.5.9,2024-05-15,Baxter
+IOT-PM-010,Patient Monitor,Cardiology - Bed 1,0447625b-b860-483c-9f30-17ed375b1493,v3.7.11,2024-08-02,Medtronic
+IOT-IP-001,Infusion Pump,Cardiology - Bed 1,fa7dfb15-98af-4a78-8c9c-228dacf90153,v4.0.2,2024-11-21,Dräger
+IOT-IP-002,Infusion Pump,Emergency - Bay 1,202b3372-a1d4-42bd-b4b7-b712bd24dc98,v3.0.4,2024-10-22,Dräger
+IOT-IP-003,Infusion Pump,Ward A - Bed 2,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,v3.1.7,2024-11-12,Medtronic
+IOT-IP-004,Infusion Pump,Emergency - Bay 2,1324aa93-d950-4796-b3f7-e1ab68c6505f,v2.9.4,2024-11-15,Medtronic
+IOT-IP-005,Infusion Pump,Emergency - Bay 1,e2885dfa-4d69-4ec3-b2a1-f3713356637f,v5.1.4,2024-09-12,Dräger
+IOT-VT-001,Ventilator,Respiratory Unit - Bed 2,fa7dfb15-98af-4a78-8c9c-228dacf90153,v4.3.3,2024-01-24,GE Healthcare
+IOT-VT-002,Ventilator,Oncology - Bed 1,202b3372-a1d4-42bd-b4b7-b712bd24dc98,v5.8.3,2024-05-25,Medtronic
+IOT-VT-003,Ventilator,Cardiology - Bed 2,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,v3.9.9,2024-12-16,GE Healthcare

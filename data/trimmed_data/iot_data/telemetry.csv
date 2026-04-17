@@ -1,0 +1,501 @@
+Timestamp,DeviceID,DeviceType,PatientID,Metric,Value,Unit,Status
+2025-01-08T06:00:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,HeartRate,102.0,bpm,Warning
+2025-01-08T06:05:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,99.0,%,Warning
+2025-01-08T06:10:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,516.0,mL,Normal
+2025-01-08T06:15:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,HeartRate,60.0,bpm,Warning
+2025-01-08T06:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,587.0,mL,Critical
+2025-01-08T06:25:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,412.0,mL,Normal
+2025-01-08T06:30:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,464.0,mL/hr,Normal
+2025-01-08T06:35:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,81.0,mmHg,Normal
+2025-01-08T06:40:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SpO2,91.0,%,Normal
+2025-01-08T06:45:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,97.0,mL/hr,Warning
+2025-01-08T06:50:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,359.0,mL/hr,Normal
+2025-01-08T06:55:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,HeartRate,101.0,bpm,Normal
+2025-01-08T07:00:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,65.0,mmHg,Normal
+2025-01-08T07:05:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,410.0,mL/hr,Normal
+2025-01-08T07:10:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,97.0,bpm,Normal
+2025-01-08T07:15:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,110.0,mmHg,Normal
+2025-01-08T07:20:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,77.0,mmHg,Normal
+2025-01-08T07:25:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,133.0,mL/hr,Normal
+2025-01-08T07:30:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,157.0,mL/hr,Normal
+2025-01-08T07:35:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,HeartRate,93.0,bpm,Normal
+2025-01-08T07:40:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,Temperature,38.6,C,Normal
+2025-01-08T07:45:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,84.0,mmHg,Normal
+2025-01-08T07:50:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,36.8,C,Normal
+2025-01-08T07:55:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,167.0,mL/hr,Normal
+2025-01-08T08:00:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,151.0,mmHg,Normal
+2025-01-08T08:05:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,HeartRate,68.0,bpm,Normal
+2025-01-08T08:10:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,385.0,mL/hr,Normal
+2025-01-08T08:15:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,534.0,mL,Normal
+2025-01-08T08:20:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SystolicBP,117.0,mmHg,Normal
+2025-01-08T08:25:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,37.9,C,Normal
+2025-01-08T08:30:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,235.0,mL/hr,Normal
+2025-01-08T08:35:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,96.0,%,Normal
+2025-01-08T08:40:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,324.0,mL,Normal
+2025-01-08T08:45:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,100.0,%,Warning
+2025-01-08T08:50:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,DiastolicBP,84.0,mmHg,Normal
+2025-01-08T08:55:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,333.0,mL/hr,Normal
+2025-01-08T09:00:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,98.0,bpm,Normal
+2025-01-08T09:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,474.0,mL,Normal
+2025-01-08T09:10:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SystolicBP,155.0,mmHg,Normal
+2025-01-08T09:15:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,60.0,mmHg,Warning
+2025-01-08T09:20:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,38.7,C,Normal
+2025-01-08T09:25:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,452.0,mL,Normal
+2025-01-08T09:30:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,378.0,mL,Normal
+2025-01-08T09:35:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,326.0,mL/hr,Normal
+2025-01-08T09:40:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,465.0,mL,Normal
+2025-01-08T09:45:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,357.0,mL,Normal
+2025-01-08T09:50:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,172.0,mL/hr,Normal
+2025-01-08T09:55:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,97.0,%,Normal
+2025-01-08T10:00:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,101.0,bpm,Normal
+2025-01-08T10:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,38.7,C,Normal
+2025-01-08T10:10:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,95.0,mmHg,Warning
+2025-01-08T10:15:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,408.0,mL,Normal
+2025-01-08T10:20:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,459.0,mL,Normal
+2025-01-08T10:25:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,274.0,mL/hr,Normal
+2025-01-08T10:30:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,361.0,mL,Normal
+2025-01-08T10:35:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,89.0,%,Warning
+2025-01-08T10:40:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,412.0,mL,Normal
+2025-01-08T10:45:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,100.0,bpm,Normal
+2025-01-08T10:50:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,89.0,%,Normal
+2025-01-08T10:55:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,313.0,mL/hr,Normal
+2025-01-08T11:00:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,162.0,mmHg,Normal
+2025-01-08T11:05:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,36.5,C,Normal
+2025-01-08T11:10:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,542.0,mL,Normal
+2025-01-08T11:15:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,98.0,mL/hr,Warning
+2025-01-08T11:20:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,266.0,mL/hr,Normal
+2025-01-08T11:25:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,492.0,mL/hr,Warning
+2025-01-08T11:30:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,HeartRate,80.0,bpm,Normal
+2025-01-08T11:35:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,177.0,mL/hr,Normal
+2025-01-08T11:40:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,96.0,%,Normal
+2025-01-08T11:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,266.0,mL/hr,Normal
+2025-01-08T11:50:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SystolicBP,159.0,mmHg,Normal
+2025-01-08T11:55:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,HeartRate,83.0,bpm,Normal
+2025-01-08T12:00:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,325.0,mL,Normal
+2025-01-08T12:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,347.0,mL,Normal
+2025-01-08T12:10:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,94.0,%,Normal
+2025-01-08T12:15:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,409.0,mL,Normal
+2025-01-08T12:20:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,134.0,mL/hr,Normal
+2025-01-08T12:25:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,249.0,mL/hr,Normal
+2025-01-08T12:30:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,DiastolicBP,78.0,mmHg,Normal
+2025-01-08T12:35:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,129.0,mL/hr,Normal
+2025-01-08T12:40:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,127.0,mmHg,Normal
+2025-01-08T12:45:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,Temperature,38.6,C,Normal
+2025-01-08T12:50:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,107.0,mmHg,Warning
+2025-01-08T12:55:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,329.0,mL,Normal
+2025-01-08T13:00:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,89.0,%,Normal
+2025-01-08T13:05:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,67.0,mmHg,Normal
+2025-01-08T13:10:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,38.1,C,Normal
+2025-01-08T13:15:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,DiastolicBP,97.0,mmHg,Critical
+2025-01-08T13:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,154.0,mL/hr,Normal
+2025-01-08T13:25:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,185.0,mL/hr,Normal
+2025-01-08T13:30:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,393.0,mL/hr,Normal
+2025-01-08T13:35:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,80.0,mmHg,Normal
+2025-01-08T13:40:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,84.0,bpm,Normal
+2025-01-08T13:45:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,HeartRate,89.0,bpm,Normal
+2025-01-08T13:50:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,36.9,C,Normal
+2025-01-08T13:55:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,500.0,mL/hr,Critical
+2025-01-08T14:00:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SpO2,95.0,%,Normal
+2025-01-08T14:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,570.0,mL,Warning
+2025-01-08T14:10:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,353.0,mL,Normal
+2025-01-08T14:15:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SystolicBP,114.0,mmHg,Normal
+2025-01-08T14:20:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,36.5,C,Warning
+2025-01-08T14:25:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,126.0,mmHg,Normal
+2025-01-08T14:30:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,37.7,C,Normal
+2025-01-08T14:35:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,HeartRate,95.0,bpm,Normal
+2025-01-08T14:40:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,72.0,mL/hr,Critical
+2025-01-08T14:45:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SystolicBP,120.0,mmHg,Normal
+2025-01-08T14:50:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,337.0,mL/hr,Normal
+2025-01-08T14:55:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,59.0,bpm,Warning
+2025-01-08T15:00:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,36.1,C,Critical
+2025-01-08T15:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,520.0,mL,Normal
+2025-01-08T15:10:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,74.0,bpm,Normal
+2025-01-08T15:15:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,233.0,mL/hr,Normal
+2025-01-08T15:20:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,98.0,%,Warning
+2025-01-08T15:25:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,379.0,mL,Normal
+2025-01-08T15:30:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,100.0,%,Warning
+2025-01-08T15:35:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,141.0,mL/hr,Normal
+2025-01-08T15:40:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,460.0,mL/hr,Normal
+2025-01-08T15:45:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,120.0,mmHg,Normal
+2025-01-08T15:50:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,62.0,mmHg,Warning
+2025-01-08T15:55:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,95.0,%,Normal
+2025-01-08T16:00:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,470.0,mL/hr,Warning
+2025-01-08T16:05:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,88.0,%,Warning
+2025-01-08T16:10:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,192.0,mL/hr,Normal
+2025-01-08T16:15:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,144.0,mmHg,Normal
+2025-01-08T16:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,574.0,mL,Warning
+2025-01-08T16:25:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,71.0,bpm,Normal
+2025-01-08T16:30:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,Temperature,39.4,C,Critical
+2025-01-08T16:35:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,37.5,C,Normal
+2025-01-08T16:40:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,360.0,mL/hr,Normal
+2025-01-08T16:45:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,497.0,mL,Normal
+2025-01-08T16:50:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,105.0,mmHg,Warning
+2025-01-08T16:55:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,Temperature,39.2,C,Normal
+2025-01-08T17:00:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,155.0,mmHg,Normal
+2025-01-08T17:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,179.0,mmHg,Critical
+2025-01-08T17:10:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SystolicBP,164.0,mmHg,Normal
+2025-01-08T17:15:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,80.0,mmHg,Normal
+2025-01-08T17:20:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,333.0,mL/hr,Normal
+2025-01-08T17:25:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,94.0,%,Normal
+2025-01-08T17:30:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,365.0,mL/hr,Normal
+2025-01-08T17:35:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,95.0,mmHg,Normal
+2025-01-08T17:40:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,126.0,mmHg,Normal
+2025-01-08T17:45:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,288.0,mL/hr,Normal
+2025-01-08T17:50:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,395.0,mL/hr,Normal
+2025-01-08T17:55:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,37.7,C,Normal
+2025-01-08T18:00:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,HeartRate,73.0,bpm,Normal
+2025-01-08T18:05:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,347.0,mL,Normal
+2025-01-08T18:10:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,128.0,mmHg,Normal
+2025-01-08T18:15:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,88.0,%,Critical
+2025-01-08T18:20:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,533.0,mL,Normal
+2025-01-08T18:25:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,417.0,mL/hr,Normal
+2025-01-08T18:30:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,254.0,mL/hr,Normal
+2025-01-08T18:35:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,98.0,%,Normal
+2025-01-08T18:40:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,74.0,mmHg,Normal
+2025-01-08T18:45:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,Temperature,37.6,C,Normal
+2025-01-08T18:50:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,362.0,mL,Normal
+2025-01-08T18:55:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,460.0,mL/hr,Normal
+2025-01-08T19:00:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,526.0,mL,Normal
+2025-01-08T19:05:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,580.0,mL,Critical
+2025-01-08T19:10:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,88.0,mmHg,Normal
+2025-01-08T19:15:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SpO2,98.0,%,Warning
+2025-01-08T19:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,422.0,mL,Normal
+2025-01-08T19:25:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,DiastolicBP,64.0,mmHg,Normal
+2025-01-08T19:30:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,142.0,mmHg,Normal
+2025-01-08T19:35:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,120.0,mL/hr,Normal
+2025-01-08T19:40:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,94.0,%,Normal
+2025-01-08T19:45:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,89.0,%,Normal
+2025-01-08T19:50:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,262.0,mL/hr,Normal
+2025-01-08T19:55:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,94.0,%,Normal
+2025-01-08T20:00:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,488.0,mL/hr,Warning
+2025-01-08T20:05:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,53.0,mL/hr,Warning
+2025-01-08T20:10:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,86.0,mmHg,Normal
+2025-01-08T20:15:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,549.0,mL,Warning
+2025-01-08T20:20:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,64.0,mL/hr,Critical
+2025-01-08T20:25:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,480.0,mL/hr,Critical
+2025-01-08T20:30:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,37.9,C,Normal
+2025-01-08T20:35:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,92.0,mL/hr,Normal
+2025-01-08T20:40:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,71.0,mmHg,Normal
+2025-01-08T20:45:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,148.0,mmHg,Normal
+2025-01-08T20:50:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,282.0,mL/hr,Normal
+2025-01-08T20:55:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,439.0,mL/hr,Normal
+2025-01-08T21:00:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,DiastolicBP,76.0,mmHg,Normal
+2025-01-08T21:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,DiastolicBP,61.0,mmHg,Warning
+2025-01-08T21:10:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,128.0,mmHg,Normal
+2025-01-08T21:15:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,103.0,bpm,Warning
+2025-01-08T21:20:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,88.0,%,Warning
+2025-01-08T21:25:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,95.0,%,Normal
+2025-01-08T21:30:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,39.3,C,Critical
+2025-01-08T21:35:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SystolicBP,121.0,mmHg,Normal
+2025-01-08T21:40:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SpO2,92.0,%,Normal
+2025-01-08T21:45:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,36.1,C,Critical
+2025-01-08T21:50:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,416.0,mL/hr,Normal
+2025-01-08T21:55:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,HeartRate,92.0,bpm,Normal
+2025-01-08T22:00:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,HeartRate,99.0,bpm,Normal
+2025-01-08T22:05:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,38.8,C,Normal
+2025-01-08T22:10:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,168.0,mmHg,Normal
+2025-01-08T22:15:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,309.0,mL/hr,Normal
+2025-01-08T22:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,484.0,mL/hr,Critical
+2025-01-08T22:25:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,521.0,mL,Normal
+2025-01-08T22:30:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,412.0,mL/hr,Normal
+2025-01-08T22:35:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,71.0,mmHg,Normal
+2025-01-08T22:40:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,575.0,mL,Normal
+2025-01-08T22:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,472.0,mL/hr,Warning
+2025-01-08T22:50:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SystolicBP,131.0,mmHg,Normal
+2025-01-08T22:55:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,157.0,mmHg,Normal
+2025-01-08T23:00:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,96.0,mmHg,Normal
+2025-01-08T23:05:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,64.0,mL/hr,Critical
+2025-01-08T23:10:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,299.0,mL/hr,Normal
+2025-01-08T23:15:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,133.0,mmHg,Normal
+2025-01-08T23:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,500.0,mL/hr,Critical
+2025-01-08T23:25:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,36.0,C,Warning
+2025-01-08T23:30:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,99.0,%,Normal
+2025-01-08T23:35:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,543.0,mL,Normal
+2025-01-08T23:40:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,308.0,mL,Critical
+2025-01-08T23:45:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,75.0,mmHg,Normal
+2025-01-08T23:50:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,37.3,C,Normal
+2025-01-08T23:55:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,517.0,mL,Normal
+2025-01-09T00:00:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,480.0,mL,Normal
+2025-01-09T00:05:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,206.0,mL/hr,Normal
+2025-01-09T00:10:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SpO2,89.0,%,Normal
+2025-01-09T00:15:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,430.0,mL/hr,Normal
+2025-01-09T00:20:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SpO2,91.0,%,Normal
+2025-01-09T00:25:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,568.0,mL,Normal
+2025-01-09T00:30:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SpO2,92.0,%,Normal
+2025-01-09T00:35:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,122.0,mmHg,Normal
+2025-01-09T00:40:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,100.0,bpm,Normal
+2025-01-09T00:45:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,440.0,mL,Normal
+2025-01-09T00:50:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,HeartRate,90.0,bpm,Normal
+2025-01-09T00:55:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SpO2,98.0,%,Normal
+2025-01-09T01:00:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,306.0,mL,Critical
+2025-01-09T01:05:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,525.0,mL,Normal
+2025-01-09T01:10:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,76.0,mL/hr,Critical
+2025-01-09T01:15:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,333.0,mL,Normal
+2025-01-09T01:20:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,38.2,C,Normal
+2025-01-09T01:25:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,90.0,%,Normal
+2025-01-09T01:30:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,70.0,bpm,Normal
+2025-01-09T01:35:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,38.7,C,Normal
+2025-01-09T01:40:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,37.3,C,Normal
+2025-01-09T01:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,490.0,mL/hr,Critical
+2025-01-09T01:50:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,341.0,mL/hr,Normal
+2025-01-09T01:55:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,Temperature,39.4,C,Critical
+2025-01-09T02:00:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,92.0,%,Normal
+2025-01-09T02:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,91.0,%,Normal
+2025-01-09T02:10:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,Temperature,36.3,C,Warning
+2025-01-09T02:15:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,199.0,mL/hr,Normal
+2025-01-09T02:20:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,92.0,%,Normal
+2025-01-09T02:25:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,64.0,mmHg,Normal
+2025-01-09T02:30:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,38.3,C,Normal
+2025-01-09T02:35:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,DiastolicBP,67.0,mmHg,Normal
+2025-01-09T02:40:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,376.0,mL,Normal
+2025-01-09T02:45:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SpO2,89.0,%,Warning
+2025-01-09T02:50:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,38.6,C,Normal
+2025-01-09T02:55:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,67.0,mmHg,Normal
+2025-01-09T03:00:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,408.0,mL/hr,Normal
+2025-01-09T03:05:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,306.0,mL/hr,Normal
+2025-01-09T03:10:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,524.0,mL,Normal
+2025-01-09T03:15:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,36.1,C,Critical
+2025-01-09T03:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,63.0,mL/hr,Critical
+2025-01-09T03:25:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SystolicBP,173.0,mmHg,Warning
+2025-01-09T03:30:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,93.0,mmHg,Normal
+2025-01-09T03:35:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,SpO2,97.0,%,Normal
+2025-01-09T03:40:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,96.0,mL/hr,Normal
+2025-01-09T03:45:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,214.0,mL/hr,Normal
+2025-01-09T03:50:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SpO2,93.0,%,Normal
+2025-01-09T03:55:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,197.0,mL/hr,Normal
+2025-01-09T04:00:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,282.0,mL/hr,Normal
+2025-01-09T04:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,132.0,mmHg,Normal
+2025-01-09T04:10:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,445.0,mL/hr,Normal
+2025-01-09T04:15:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,577.0,mL,Critical
+2025-01-09T04:20:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,96.0,%,Normal
+2025-01-09T04:25:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,370.0,mL/hr,Normal
+2025-01-09T04:30:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,154.0,mL/hr,Normal
+2025-01-09T04:35:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,36.5,C,Warning
+2025-01-09T04:40:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,314.0,mL,Warning
+2025-01-09T04:45:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SpO2,92.0,%,Normal
+2025-01-09T04:50:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,582.0,mL,Critical
+2025-01-09T04:55:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,HeartRate,84.0,bpm,Normal
+2025-01-09T05:00:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SpO2,95.0,%,Normal
+2025-01-09T05:05:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,38.5,C,Normal
+2025-01-09T05:10:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,291.0,mL/hr,Normal
+2025-01-09T05:15:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,95.0,mmHg,Warning
+2025-01-09T05:20:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,37.8,C,Normal
+2025-01-09T05:25:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,72.0,bpm,Normal
+2025-01-09T05:30:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,453.0,mL/hr,Normal
+2025-01-09T05:35:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SystolicBP,138.0,mmHg,Normal
+2025-01-09T05:40:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,528.0,mL,Normal
+2025-01-09T05:45:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,476.0,mL,Normal
+2025-01-09T05:50:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,283.0,mL/hr,Normal
+2025-01-09T05:55:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,407.0,mL/hr,Normal
+2025-01-09T06:00:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,37.3,C,Normal
+2025-01-09T06:05:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,212.0,mL/hr,Normal
+2025-01-09T06:10:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,497.0,mL,Normal
+2025-01-09T06:15:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,62.0,mmHg,Critical
+2025-01-09T06:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,497.0,mL/hr,Warning
+2025-01-09T06:25:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,39.2,C,Warning
+2025-01-09T06:30:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,69.0,mmHg,Normal
+2025-01-09T06:35:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,DiastolicBP,76.0,mmHg,Normal
+2025-01-09T06:40:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,382.0,mL/hr,Normal
+2025-01-09T06:45:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,168.0,mmHg,Warning
+2025-01-09T06:50:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,496.0,mL/hr,Critical
+2025-01-09T06:55:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,98.0,%,Normal
+2025-01-09T07:00:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SpO2,99.0,%,Warning
+2025-01-09T07:05:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,HeartRate,83.0,bpm,Normal
+2025-01-09T07:10:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SystolicBP,103.0,mmHg,Critical
+2025-01-09T07:15:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,145.0,mmHg,Normal
+2025-01-09T07:20:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,124.0,mL/hr,Normal
+2025-01-09T07:25:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,37.4,C,Normal
+2025-01-09T07:30:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SpO2,90.0,%,Normal
+2025-01-09T07:35:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,39.0,C,Normal
+2025-01-09T07:40:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,97.0,mmHg,Critical
+2025-01-09T07:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,285.0,mL/hr,Normal
+2025-01-09T07:50:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,HeartRate,106.0,bpm,Critical
+2025-01-09T07:55:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,36.6,C,Normal
+2025-01-09T08:00:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,350.0,mL/hr,Normal
+2025-01-09T08:05:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,DiastolicBP,76.0,mmHg,Normal
+2025-01-09T08:10:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,151.0,mL/hr,Normal
+2025-01-09T08:15:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,104.0,mL/hr,Warning
+2025-01-09T08:20:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,408.0,mL/hr,Normal
+2025-01-09T08:25:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,108.0,bpm,Warning
+2025-01-09T08:30:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,HeartRate,91.0,bpm,Normal
+2025-01-09T08:35:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,Temperature,38.6,C,Normal
+2025-01-09T08:40:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SpO2,97.0,%,Normal
+2025-01-09T08:45:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,375.0,mL/hr,Normal
+2025-01-09T08:50:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,36.9,C,Normal
+2025-01-09T08:55:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,95.0,bpm,Normal
+2025-01-09T09:00:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,156.0,mmHg,Normal
+2025-01-09T09:05:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,Temperature,37.3,C,Normal
+2025-01-09T09:10:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,73.0,bpm,Normal
+2025-01-09T09:15:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,139.0,mL/hr,Normal
+2025-01-09T09:20:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,100.0,%,Critical
+2025-01-09T09:25:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,475.0,mL/hr,Critical
+2025-01-09T09:30:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,473.0,mL,Normal
+2025-01-09T09:35:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,64.0,mmHg,Warning
+2025-01-09T09:40:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,95.0,mmHg,Warning
+2025-01-09T09:45:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,185.0,mL/hr,Normal
+2025-01-09T09:50:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,532.0,mL,Normal
+2025-01-09T09:55:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,349.0,mL/hr,Normal
+2025-01-09T10:00:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,105.0,mL/hr,Normal
+2025-01-09T10:05:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,587.0,mL,Critical
+2025-01-09T10:10:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,HeartRate,95.0,bpm,Normal
+2025-01-09T10:15:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,382.0,mL/hr,Normal
+2025-01-09T10:20:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,121.0,mL/hr,Normal
+2025-01-09T10:25:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,HeartRate,74.0,bpm,Normal
+2025-01-09T10:30:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,349.0,mL,Normal
+2025-01-09T10:35:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,36.5,C,Normal
+2025-01-09T10:40:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,600.0,mL,Warning
+2025-01-09T10:45:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,66.0,mmHg,Normal
+2025-01-09T10:50:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,443.0,mL,Normal
+2025-01-09T10:55:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,127.0,mmHg,Normal
+2025-01-09T11:00:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,170.0,mL/hr,Normal
+2025-01-09T11:05:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,401.0,mL/hr,Normal
+2025-01-09T11:10:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,81.0,mL/hr,Critical
+2025-01-09T11:15:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,HeartRate,109.0,bpm,Warning
+2025-01-09T11:20:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,98.0,%,Normal
+2025-01-09T11:25:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,105.0,bpm,Warning
+2025-01-09T11:30:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,36.7,C,Normal
+2025-01-09T11:35:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,600.0,mL,Critical
+2025-01-09T11:40:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,118.0,mmHg,Normal
+2025-01-09T11:45:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SystolicBP,118.0,mmHg,Normal
+2025-01-09T11:50:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,36.9,C,Normal
+2025-01-09T11:55:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,HeartRate,97.0,bpm,Normal
+2025-01-09T12:00:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SpO2,88.0,%,Critical
+2025-01-09T12:05:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,37.1,C,Normal
+2025-01-09T12:10:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SystolicBP,106.0,mmHg,Critical
+2025-01-09T12:15:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,431.0,mL/hr,Warning
+2025-01-09T12:20:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,312.0,mL/hr,Normal
+2025-01-09T12:25:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,92.0,mmHg,Normal
+2025-01-09T12:30:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,36.2,C,Warning
+2025-01-09T12:35:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,534.0,mL,Normal
+2025-01-09T12:40:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,85.0,bpm,Normal
+2025-01-09T12:45:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,401.0,mL/hr,Normal
+2025-01-09T12:50:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,88.0,mmHg,Normal
+2025-01-09T12:55:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,75.0,bpm,Normal
+2025-01-09T13:00:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,63.0,bpm,Warning
+2025-01-09T13:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,495.0,mL,Normal
+2025-01-09T13:10:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,532.0,mL,Normal
+2025-01-09T13:15:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,350.0,mL,Normal
+2025-01-09T13:20:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,38.5,C,Normal
+2025-01-09T13:25:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,DiastolicBP,88.0,mmHg,Normal
+2025-01-09T13:30:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,81.0,mmHg,Normal
+2025-01-09T13:35:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,262.0,mL/hr,Normal
+2025-01-09T13:40:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SystolicBP,154.0,mmHg,Normal
+2025-01-09T13:45:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,241.0,mL/hr,Normal
+2025-01-09T13:50:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,64.0,mmHg,Warning
+2025-01-09T13:55:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,HeartRate,82.0,bpm,Normal
+2025-01-09T14:00:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SystolicBP,116.0,mmHg,Normal
+2025-01-09T14:05:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,600.0,mL,Warning
+2025-01-09T14:10:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,362.0,mL,Normal
+2025-01-09T14:15:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,497.0,mL/hr,Warning
+2025-01-09T14:20:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,197.0,mL/hr,Normal
+2025-01-09T14:25:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,113.0,mmHg,Normal
+2025-01-09T14:30:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,379.0,mL,Normal
+2025-01-09T14:35:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,355.0,mL,Normal
+2025-01-09T14:40:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,108.0,mL/hr,Normal
+2025-01-09T14:45:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,95.0,mmHg,Normal
+2025-01-09T14:50:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,436.0,mL,Normal
+2025-01-09T14:55:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SpO2,92.0,%,Normal
+2025-01-09T15:00:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,144.0,mmHg,Normal
+2025-01-09T15:05:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SpO2,90.0,%,Normal
+2025-01-09T15:10:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,122.0,mL/hr,Normal
+2025-01-09T15:15:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,102.0,bpm,Normal
+2025-01-09T15:20:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,282.0,mL/hr,Normal
+2025-01-09T15:25:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,239.0,mL/hr,Normal
+2025-01-09T15:30:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,172.0,mmHg,Normal
+2025-01-09T15:35:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SpO2,90.0,%,Normal
+2025-01-09T15:40:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,HeartRate,72.0,bpm,Normal
+2025-01-09T15:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,298.0,mL/hr,Normal
+2025-01-09T15:50:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,189.0,mL/hr,Normal
+2025-01-09T15:55:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,36.4,C,Normal
+2025-01-09T16:00:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,Temperature,37.7,C,Normal
+2025-01-09T16:05:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,69.0,bpm,Normal
+2025-01-09T16:10:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,53.0,mL/hr,Critical
+2025-01-09T16:15:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,100.0,%,Critical
+2025-01-09T16:20:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,53.0,mL/hr,Critical
+2025-01-09T16:25:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,116.0,mL/hr,Warning
+2025-01-09T16:30:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,Temperature,38.0,C,Normal
+2025-01-09T16:35:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,253.0,mL/hr,Normal
+2025-01-09T16:40:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,DiastolicBP,61.0,mmHg,Critical
+2025-01-09T16:45:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,173.0,mmHg,Normal
+2025-01-09T16:50:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,198.0,mL/hr,Normal
+2025-01-09T16:55:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,DiastolicBP,61.0,mmHg,Warning
+2025-01-09T17:00:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,Temperature,37.6,C,Normal
+2025-01-09T17:05:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,273.0,mL/hr,Normal
+2025-01-09T17:10:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SpO2,94.0,%,Normal
+2025-01-09T17:15:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,252.0,mL/hr,Normal
+2025-01-09T17:20:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,128.0,mmHg,Normal
+2025-01-09T17:25:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,89.0,mL/hr,Normal
+2025-01-09T17:30:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,37.8,C,Normal
+2025-01-09T17:35:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,422.0,mL/hr,Normal
+2025-01-09T17:40:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,89.0,%,Warning
+2025-01-09T17:45:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SpO2,97.0,%,Normal
+2025-01-09T17:50:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,66.0,bpm,Normal
+2025-01-09T17:55:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,588.0,mL,Warning
+2025-01-09T18:00:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,492.0,mL/hr,Warning
+2025-01-09T18:05:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,275.0,mL/hr,Normal
+2025-01-09T18:10:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,DiastolicBP,88.0,mmHg,Normal
+2025-01-09T18:15:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,SystolicBP,175.0,mmHg,Critical
+2025-01-09T18:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,458.0,mL,Normal
+2025-01-09T18:25:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,69.0,mL/hr,Critical
+2025-01-09T18:30:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,96.0,bpm,Normal
+2025-01-09T18:35:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,38.1,C,Normal
+2025-01-09T18:40:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,347.0,mL/hr,Normal
+2025-01-09T18:45:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,530.0,mL,Normal
+2025-01-09T18:50:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,177.0,mmHg,Critical
+2025-01-09T18:55:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,HeartRate,83.0,bpm,Normal
+2025-01-09T19:00:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,SystolicBP,110.0,mmHg,Normal
+2025-01-09T19:05:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,HeartRate,70.0,bpm,Normal
+2025-01-09T19:10:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,318.0,mL/hr,Normal
+2025-01-09T19:15:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,486.0,mL,Normal
+2025-01-09T19:20:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,248.0,mL/hr,Normal
+2025-01-09T19:25:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,397.0,mL/hr,Normal
+2025-01-09T19:30:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,108.0,mmHg,Warning
+2025-01-09T19:35:00,IOT-VT-003,Ventilator,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,TidalVolume,445.0,mL,Normal
+2025-01-09T19:40:00,IOT-PM-009,Patient Monitor,bfd66698-4139-4e5e-9982-efa459aa9dca,Temperature,39.1,C,Warning
+2025-01-09T19:45:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SystolicBP,139.0,mmHg,Normal
+2025-01-09T19:50:00,IOT-IP-003,Infusion Pump,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,FlowRate,354.0,mL/hr,Normal
+2025-01-09T19:55:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,171.0,mmHg,Warning
+2025-01-09T20:00:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,393.0,mL/hr,Normal
+2025-01-09T20:05:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,516.0,mL,Normal
+2025-01-09T20:10:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,309.0,mL,Critical
+2025-01-09T20:15:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SpO2,93.0,%,Normal
+2025-01-09T20:20:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,415.0,mL,Normal
+2025-01-09T20:25:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SpO2,89.0,%,Warning
+2025-01-09T20:30:00,IOT-PM-004,Patient Monitor,1324aa93-d950-4796-b3f7-e1ab68c6505f,Temperature,38.7,C,Normal
+2025-01-09T20:35:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,472.0,mL,Normal
+2025-01-09T20:40:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,37.3,C,Normal
+2025-01-09T20:45:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,SpO2,99.0,%,Normal
+2025-01-09T20:50:00,IOT-PM-006,Patient Monitor,92b4bd25-f752-49fe-b248-a3e4b0e89d2a,DiastolicBP,62.0,mmHg,Critical
+2025-01-09T20:55:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,99.0,mmHg,Critical
+2025-01-09T21:00:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,323.0,mL/hr,Normal
+2025-01-09T21:05:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,SystolicBP,160.0,mmHg,Normal
+2025-01-09T21:10:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,SystolicBP,173.0,mmHg,Normal
+2025-01-09T21:15:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,448.0,mL/hr,Warning
+2025-01-09T21:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,382.0,mL,Normal
+2025-01-09T21:25:00,IOT-PM-007,Patient Monitor,a694ecfc-e39e-46dc-876e-029b32ba0135,Temperature,36.5,C,Warning
+2025-01-09T21:30:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,583.0,mL,Warning
+2025-01-09T21:35:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,445.0,mL,Normal
+2025-01-09T21:40:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SpO2,92.0,%,Normal
+2025-01-09T21:45:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,475.0,mL/hr,Critical
+2025-01-09T21:50:00,IOT-PM-008,Patient Monitor,076688b0-f0d5-4c45-8bc6-b206684fa9ac,DiastolicBP,82.0,mmHg,Normal
+2025-01-09T21:55:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,DiastolicBP,63.0,mmHg,Critical
+2025-01-09T22:00:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,247.0,mL/hr,Normal
+2025-01-09T22:05:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,128.0,mmHg,Normal
+2025-01-09T22:10:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,SystolicBP,112.0,mmHg,Normal
+2025-01-09T22:15:00,IOT-IP-001,Infusion Pump,fa7dfb15-98af-4a78-8c9c-228dacf90153,FlowRate,120.0,mL/hr,Normal
+2025-01-09T22:20:00,IOT-PM-002,Patient Monitor,202b3372-a1d4-42bd-b4b7-b712bd24dc98,SystolicBP,160.0,mmHg,Normal
+2025-01-09T22:25:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,DiastolicBP,88.0,mmHg,Normal
+2025-01-09T22:30:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,HeartRate,56.0,bpm,Critical
+2025-01-09T22:35:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,Temperature,39.3,C,Warning
+2025-01-09T22:40:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,447.0,mL/hr,Warning
+2025-01-09T22:45:00,IOT-PM-010,Patient Monitor,0447625b-b860-483c-9f30-17ed375b1493,HeartRate,58.0,bpm,Critical
+2025-01-09T22:50:00,IOT-IP-005,Infusion Pump,e2885dfa-4d69-4ec3-b2a1-f3713356637f,FlowRate,106.0,mL/hr,Normal
+2025-01-09T22:55:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,563.0,mL,Normal
+2025-01-09T23:00:00,IOT-PM-005,Patient Monitor,e2885dfa-4d69-4ec3-b2a1-f3713356637f,SystolicBP,154.0,mmHg,Normal
+2025-01-09T23:05:00,IOT-PM-001,Patient Monitor,fa7dfb15-98af-4a78-8c9c-228dacf90153,Temperature,37.2,C,Normal
+2025-01-09T23:10:00,IOT-IP-004,Infusion Pump,1324aa93-d950-4796-b3f7-e1ab68c6505f,FlowRate,390.0,mL/hr,Normal
+2025-01-09T23:15:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,Temperature,39.4,C,Critical
+2025-01-09T23:20:00,IOT-VT-002,Ventilator,202b3372-a1d4-42bd-b4b7-b712bd24dc98,TidalVolume,499.0,mL,Normal
+2025-01-09T23:25:00,IOT-VT-001,Ventilator,fa7dfb15-98af-4a78-8c9c-228dacf90153,TidalVolume,498.0,mL,Normal
+2025-01-09T23:30:00,IOT-IP-002,Infusion Pump,202b3372-a1d4-42bd-b4b7-b712bd24dc98,FlowRate,432.0,mL/hr,Warning
+2025-01-09T23:35:00,IOT-PM-003,Patient Monitor,c8c1bcb3-f787-4d53-9e3f-8fc59740daa3,SystolicBP,130.0,mmHg,Normal
