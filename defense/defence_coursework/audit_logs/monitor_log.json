@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-04-16 10:37:13",
+    "event": "monitor_scan_clean"
+  },
+  {
+    "timestamp": "2026-04-16 10:37:51",
+    "event": "malware_alert",
+    "file": "testfile.locked"
+  },
+  {
+    "timestamp": "2026-04-16 11:00:25",
+    "event": "malware_alert",
+    "file": "testfile.locked"
+  }
+]

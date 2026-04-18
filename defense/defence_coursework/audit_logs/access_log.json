@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2026-04-16 09:48:52",
+    "user": "admin1",
+    "role": "admin",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-16 09:49:39",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_002.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-16 09:50:18",
+    "event": "failed_login"
+  },
+  {
+    "timestamp": "2026-04-16 09:50:57",
+    "event": "failed_login"
+  },
+  {
+    "timestamp": "2026-04-16 10:57:16",
+    "user": "admin1",
+    "role": "admin",
+    "event": "record_accessed",
+    "file": "patient_003.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-16 10:57:43",
+    "event": "failed_login"
+  }
+]
