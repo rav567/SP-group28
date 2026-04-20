@@ -1,0 +1,5 @@
+Patient ID: [REDACTED]
+Name: [REDACTED]
+DOB: [REDACTED]
+Ward: Cardiology
+Notes: Chest pain under observation.

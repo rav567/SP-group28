@@ -1,0 +1,5 @@
+Patient ID: [REDACTED]
+Name: [REDACTED]
+DOB: [REDACTED]
+Ward: General
+Notes: Fever improving, waiting for blood test results.
