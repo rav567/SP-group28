@@ -1,0 +1,6 @@
+drop tcp any any -> $HOME_NET any (msg:"IPS BLOCK - SYN FLOOD DETECTED"; flags:S,12; flow:stateless; threshold:type both, track by_src, count 100, seconds 10; classtype:attempted-dos; priority:1; sid:1000100; rev:2;)
+drop udp any any -> $HOME_NET !53 (msg:"IPS BLOCK - UDP FLOOD DETECTED"; threshold:type both, track by_src, count 100, seconds 10; classtype:attempted-dos; priority:1; sid:1000101; rev:2;)
+drop udp any any -> $HOME_NET 53 (msg:"IPS BLOCK - DNS FLOOD DETECTED"; threshold:type both, track by_src, count 50, seconds 10; classtype:attempted-dos; priority:1; sid:1000102; rev:2;)
+drop icmp any any -> $HOME_NET any (msg:"IPS BLOCK - ICMP FLOOD DETECTED"; itype:8; threshold:type both, track by_src, count 100, seconds 10; classtype:attempted-dos; priority:1; sid:1000103; rev:2;)
+drop udp any any -> $HOME_NET any (msg:"IPS BLOCK - LARGE UDP PAYLOAD DETECTED"; dsize:>512; threshold:type both, track by_src, count 50, seconds 10; classtype:attempted-dos; priority:2; sid:1000104; rev:1;)
+drop udp $HOME_NET 53 -> any any (msg:"IPS BLOCK - DNS AMPLIFICATION DETECTED"; dsize:>512; threshold:type both, track by_src, count 20, seconds 10; classtype:attempted-dos; priority:1; sid:1000105; rev:1;)
