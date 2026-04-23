@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% set active = 'audit' %}
+{% block title %}Security Console — NHS Clinical Records{% endblock %}
+
+{% block content %}
+  <h1 class="page-title">Security Console</h1>
+  <p class="page-subtitle">
+    Administrator view. Review every sign-in, record access and export,
+    and run an on-demand malware scan of the secure record store.
+  </p>
+
+  {% if scan_result %}
+    {% if scan_result.clean %}
+      <div class="alert alert-success">
+        <strong>Scan complete.</strong>
+        No suspicious files found in the record store at {{ scan_result.timestamp }}.
+      </div>
+    {% else %}
+      <div class="alert alert-error">
+        <strong>Scan complete &mdash; {{ scan_result.threats|length }} suspicious file(s) found.</strong>
+        <ul style="margin-top:6px; padding-left:20px;">
+          {% for name in scan_result.threats %}
+            <li><code>{{ name }}</code></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <div class="card">
+    <h2>Malware scan</h2>
+    <p class="card-sub">
+      Scans <code>secure_records/</code> for ransomware-style <code>.locked</code> files.
+      Results are written to the security log.
+    </p>
+    <form method="POST" action="{{ url_for('audit') }}">
+      <input type="hidden" name="action" value="scan" />
+      <button type="submit" class="btn">Run scan now</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Access events</h2>
+    <p class="card-sub">{{ access_events|length }} entries, most recent first.</p>
+    {% if access_events %}
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th style="width:180px;">Timestamp</th>
+          <th style="width:200px;">Event</th>
+          <th>User</th>
+          <th>Role</th>
+          <th>File</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in access_events %}
+        <tr>
+          <td class="mono">{{ e.timestamp }}</td>
+          <td>
+            {% if e.event == 'record_accessed' %}
+              <span class="tag tag-ok">record_accessed</span>
+            {% elif e.event == 'login_success' %}
+              <span class="tag tag-ok">login_success</span>
+            {% elif e.event == 'failed_login' %}
+              <span class="tag tag-fail">failed_login</span>
+            {% elif e.event == 'unauthorised_access_attempt' %}
+              <span class="tag tag-fail">unauthorised_access</span>
+            {% elif e.event == 'logout' %}
+              <span class="tag tag-warn">logout</span>
+            {% elif e.event == 'research_export_generated' %}
+              <span class="tag tag-warn">research_export</span>
+            {% elif e.event == 'ai_safe_export_generated' %}
+              <span class="tag tag-warn">research_export</span>
+            {% else %}
+              <span class="tag tag-warn">{{ e.event }}</span>
+            {% endif %}
+          </td>
+          <td>{{ e.user or e.attempted_user or '—' }}</td>
+          <td>
+            {% if e.role %}
+              <span class="tag tag-{{ e.role }}">{{ e.role }}</span>
+            {% else %}—{% endif %}
+          </td>
+          <td>{% if e.file %}<code>{{ e.file }}</code>{% else %}—{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p style="color:#4c6272; font-size:14px;">No access events yet.</p>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Scan history</h2>
+    <p class="card-sub">{{ monitor_events|length }} scan result{{ '' if monitor_events|length == 1 else 's' }}, most recent first.</p>
+    {% if monitor_events %}
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th style="width:180px;">Timestamp</th>
+          <th style="width:200px;">Result</th>
+          <th>File</th>
+          <th>Triggered by</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for e in monitor_events %}
+        <tr>
+          <td class="mono">{{ e.timestamp }}</td>
+          <td>
+            {% if e.event == 'malware_alert' %}
+              <span class="tag tag-fail">malware_alert</span>
+            {% elif e.event == 'monitor_scan_clean' %}
+              <span class="tag tag-ok">scan_clean</span>
+            {% else %}
+              <span class="tag tag-warn">{{ e.event }}</span>
+            {% endif %}
+          </td>
+          <td>{% if e.file %}<code>{{ e.file }}</code>{% else %}—{% endif %}</td>
+          <td>{{ e.triggered_by or '—' }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+      <p style="color:#4c6272; font-size:14px;">No scans have been run.</p>
+    {% endif %}
+  </div>
+{% endblock %}

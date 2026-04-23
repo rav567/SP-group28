@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% set active = 'dashboard' %}
+{% block title %}Access denied — NHS Clinical Records{% endblock %}
+
+{% block content %}
+  <h1 class="page-title" style="color:#8b1a10;">Access denied</h1>
+  <p class="page-subtitle">Your role does not permit access to this resource. This attempt has been logged.</p>
+
+  <div class="card" style="border-top-color:#d5281b;">
+    <h2>Request blocked</h2>
+    <p class="card-sub">Attempted resource</p>
+    <div class="code-block code-light">{{ file }}</div>
+
+    <table class="data-table" style="margin-top: 16px;">
+      <tbody>
+        <tr>
+          <th style="width: 180px;">User</th>
+          <td>{{ user.username }}</td>
+        </tr>
+        <tr>
+          <th>Role</th>
+          <td><span class="tag tag-{{ user.role }}">{{ user.role }}</span></td>
+        </tr>
+        <tr>
+          <th>Required role</th>
+          <td>
+            {% if file == 'Security Console' %}
+              <span class="tag tag-admin">admin</span>
+            {% else %}
+              <span class="tag tag-doctor">doctor</span> <span class="tag tag-admin">admin</span>
+            {% endif %}
+          </td>
+        </tr>
+        <tr>
+          <th>Recorded as</th>
+          <td><span class="tag tag-fail">unauthorised_access_attempt</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top: 18px;">
+      <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Back to records</a>
+    </p>
+  </div>
+{% endblock %}

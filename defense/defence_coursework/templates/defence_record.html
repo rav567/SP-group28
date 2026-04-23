@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% set active = 'dashboard' %}
+{% block title %}{{ file }} — NHS Clinical Records{% endblock %}
+
+{% block content %}
+  <h1 class="page-title">Patient record</h1>
+  <p class="page-subtitle">Decrypted in memory for this session. This access has been written to the audit log.</p>
+
+  <div class="meta-row">
+    <div class="meta-item">File <strong><code>{{ file }}</code></strong></div>
+    <div class="meta-item">Accessed by <strong>{{ user.username }}</strong> <span class="tag tag-{{ user.role }}">{{ user.role }}</span></div>
+  </div>
+
+  <div class="card">
+    <h2>Record contents</h2>
+    <p class="card-sub">Plaintext view</p>
+    <div class="code-block code-light">{{ plaintext }}</div>
+
+    <p style="margin-top: 18px;">
+      <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Back to records</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>On-disk storage</h2>
+    <p class="card-sub">
+      {{ ciphertext_size }} bytes of Fernet ciphertext (AES-128-CBC with HMAC-SHA256).
+      Without <code>master.key</code>, this data cannot be read.
+    </p>
+    <div class="code-block">{{ ciphertext_preview }}{% if ciphertext_size > 96 %} …{% endif %}</div>
+  </div>
+{% endblock %}

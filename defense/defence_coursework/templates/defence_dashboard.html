@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% set active = 'dashboard' %}
+{% block title %}Records — NHS Clinical Records{% endblock %}
+
+{% block content %}
+  <h1 class="page-title">Patient records</h1>
+  <p class="page-subtitle">Records are encrypted at rest. Access is restricted by role and recorded in the audit log.</p>
+
+  <div class="meta-row">
+    <div class="meta-item"><strong>{{ files|length }}</strong> record{{ '' if files|length == 1 else 's' }}</div>
+    <div class="meta-item">Signed in as <strong>{{ user.username }}</strong> ({{ user.role }})</div>
+  </div>
+
+  <div class="card">
+    <h2>Encrypted records</h2>
+    <p class="card-sub">Stored under <code>secure_records/patient_notes/</code>.</p>
+
+    {% if files %}
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Type</th>
+            <th style="width: 140px;"></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for f in files %}
+          <tr>
+            <td><code>{{ f }}</code></td>
+            <td>Patient note</td>
+            <td style="text-align:right;">
+              <a href="{{ url_for('record', filename=f) }}" class="btn btn-secondary">Open</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <div class="alert alert-warn">
+        No encrypted records found. Run <code>setup_defence.py</code> to provision the secure store.
+      </div>
+    {% endif %}
+  </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+StaffID,Name,Role,Department,AccessLevel,Email
+S-001,Dr James Whitfield,Consultant,Cardiology,Full,james.whitfield@nhs-hospital.invalid
+S-002,Dr Priya Sharma,Registrar,Oncology,Full,priya.sharma@nhs-hospital.invalid
+S-003,Dr Mohammed Al-Rashid,SHO,Emergency,Standard,mohammed.al-rashid@nhs-hospital.invalid
+S-004,Dr Emily Chen,FY2,Respiratory,Standard,emily.chen@nhs-hospital.invalid
+S-005,Sarah Thompson,Ward Sister,Orthopaedics,Standard,sarah.thompson@nhs-hospital.invalid
+S-006,Michael O'Brien,Staff Nurse,Cardiology,Standard,michael.o'brien@nhs-hospital.invalid
+S-007,Fatima Begum,Staff Nurse,Oncology,Standard,fatima.begum@nhs-hospital.invalid
+S-008,David Williams,Practice Nurse,Respiratory,Standard,david.williams@nhs-hospital.invalid
+S-009,Rachel Hughes,HCA,Emergency,Basic,rachel.hughes@nhs-hospital.invalid
+S-010,Daniel Okonkwo,HCA,Orthopaedics,Basic,daniel.okonkwo@nhs-hospital.invalid
+S-011,Dr Laura Mitchell,Consultant,Respiratory,Full,laura.mitchell@nhs-hospital.invalid
+S-012,Karen Singh,Staff Nurse,Emergency,Standard,karen.singh@nhs-hospital.invalid

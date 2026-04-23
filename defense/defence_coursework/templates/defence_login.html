@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign in — NHS Clinical Records</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Frutiger", "Arial", sans-serif;
+      background: #f0f4f5;
+      color: #212b32;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+    }
+
+    .nhs-bar {
+      background: #003087;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .nhs-logo {
+      background: #fff;
+      color: #003087;
+      font-size: 20px;
+      font-weight: 900;
+      padding: 3px 9px;
+      letter-spacing: -1px;
+      border-radius: 2px;
+    }
+    .nhs-bar-title {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 16px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #d8dde0;
+      border-top: 3px solid #003087;
+      border-radius: 2px;
+      padding: 36px 40px;
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .demo-card {
+      background: #f7f9fa;
+      border: 1px solid #d8dde0;
+      border-radius: 2px;
+      padding: 16px 18px;
+      width: 100%;
+      max-width: 420px;
+      margin-top: 16px;
+    }
+    .demo-card .demo-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #4c6272;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+    table.demo-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    table.demo-table th,
+    table.demo-table td {
+      text-align: left;
+      padding: 6px 8px;
+      border-bottom: 1px solid #e6ebec;
+    }
+    table.demo-table th {
+      color: #4c6272;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    table.demo-table tr:last-child td { border-bottom: none; }
+    table.demo-table td.mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 12.5px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 2px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .tag-doctor { background: #e0ecff; color: #003087; }
+    .tag-admin { background: #ffe8d4; color: #8a3d00; }
+    .tag-researcher { background: #efe0ff; color: #4b1a75; }
+
+    .card h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .card .subtitle {
+      color: #4c6272;
+      font-size: 14px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #aeb7bd;
+      border-radius: 2px;
+      font-size: 15px;
+      color: #212b32;
+      margin-bottom: 16px;
+      font-family: inherit;
+      transition: border-color 0.12s, box-shadow 0.12s;
+    }
+    input:focus {
+      outline: none;
+      border-color: #003087;
+      box-shadow: 0 0 0 2px rgba(0, 48, 135, 0.15);
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: #007f3b;
+      color: #fff;
+      border: none;
+      border-radius: 2px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 6px;
+      font-family: inherit;
+      transition: background 0.12s;
+    }
+    .btn:hover { background: #00662f; }
+
+    .alert-error {
+      background: #fde8e6;
+      border-left: 4px solid #d5281b;
+      padding: 10px 14px;
+      margin-bottom: 18px;
+      font-size: 14px;
+      color: #8b1a10;
+    }
+
+    .help-text {
+      font-size: 12px;
+      color: #4c6272;
+      margin-top: 20px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .help-text a { color: #005eb8; }
+
+    footer {
+      background: #003087;
+      color: #aec6cf;
+      font-size: 12px;
+      text-align: center;
+      padding: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nhs-bar">
+    <div class="nhs-logo">NHS</div>
+    <div class="nhs-bar-title">Clinical Records</div>
+  </div>
+
+  <main>
+    <div class="card">
+      <h1>Sign in</h1>
+      <p class="subtitle">
+        This system is for authorised clinical and administrative staff.
+        Enter your credentials and your single-use MFA code.
+      </p>
+
+      {% if error %}
+      <div class="alert-error">{{ error }}</div>
+      {% endif %}
+
+      <form method="POST" action="{{ url_for('login') }}">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username"
+               autocomplete="username" autofocus />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"
+               autocomplete="current-password" />
+
+        <label for="mfa_code">MFA code</label>
+        <input type="text" id="mfa_code" name="mfa_code"
+               autocomplete="one-time-code" inputmode="numeric" />
+
+        <button type="submit" class="btn">Sign in</button>
+      </form>
+
+      <p class="help-text">
+        Trouble signing in? Contact IT Service Desk on ext. 4400.
+      </p>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-title">Demo accounts</div>
+      <table class="demo-table">
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>MFA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="tag tag-doctor">doctor</span></td>
+            <td class="mono">doctorRK</td>
+            <td class="mono">doctorpassword</td>
+            <td class="mono">246810</td>
+          </tr>
+          <tr>
+            <td><span class="tag tag-admin">admin</span></td>
+            <td class="mono">admin1</td>
+            <td class="mono">adminpassword</td>
+            <td class="mono">135790</td>
+          </tr>
+          <tr>
+            <td><span class="tag tag-researcher">researcher</span></td>
+            <td class="mono">researcher1</td>
+            <td class="mono">researchpassword</td>
+            <td class="mono">112233</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    NHS Digital · Clinical Records v1.0 · Authorised use only. All activity is logged.
+  </footer>
+
+</body>
+</html>

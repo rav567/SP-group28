@@ -1,0 +1,46 @@
+services:
+  ehr-server:
+    build: .
+    container_name: ehr-server
+    hostname: ehr-server
+    environment:
+      - SERVER_ROLE=ehr
+    networks:
+      hospital_net:
+        ipv4_address: 10.10.10.10
+    ports:
+      - "2222:22"
+    restart: unless-stopped
+
+  iot-gateway:
+    build: .
+    container_name: iot-gateway
+    hostname: iot-gateway
+    environment:
+      - SERVER_ROLE=iot
+    networks:
+      hospital_net:
+        ipv4_address: 10.10.10.11
+    ports:
+      - "2223:22"
+    restart: unless-stopped
+
+  staff-portal:
+    build: .
+    container_name: staff-portal
+    hostname: staff-portal
+    environment:
+      - SERVER_ROLE=portal
+    networks:
+      hospital_net:
+        ipv4_address: 10.10.10.12
+    ports:
+      - "2224:22"
+    restart: unless-stopped
+
+networks:
+  hospital_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.10.10.0/24

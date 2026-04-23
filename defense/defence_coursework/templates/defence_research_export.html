@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% set active = 'research' %}
+{% block title %}Research export — NHS Clinical Records{% endblock %}
+
+{% block content %}
+  <h1 class="page-title">Research export</h1>
+  <p class="page-subtitle">
+    Removes direct identifiers (name, date of birth, NHS number, patient ID) from patient notes
+    so that de-identified copies can be released for research, audit and reporting.
+  </p>
+
+  {% if generated %}
+    <div class="alert alert-success">
+      De-identified copies written to <code>redacted_exports/</code> ({{ exported|length }} file{{ '' if exported|length == 1 else 's' }}).
+    </div>
+  {% endif %}
+
+  <div class="card">
+    <h2>Generate de-identified copies</h2>
+    <p class="card-sub">
+      Records are decrypted in memory, identifiers are removed, and the result is written to
+      <code>redacted_exports/</code>. The encrypted store is never modified.
+    </p>
+    <form method="POST" action="{{ url_for('research_export') }}">
+      <button type="submit" class="btn">Generate</button>
+    </form>
+  </div>
+
+  {% for pair in pairs %}
+  <div class="card">
+    <h2>{{ pair.file }}</h2>
+    <p class="card-sub">Original vs. de-identified</p>
+    <div class="split">
+      <div>
+        <h3>Original</h3>
+        <div class="code-block code-light">{{ pair.original }}</div>
+      </div>
+      <div>
+        <h3>De-identified</h3>
+        <div class="code-block code-light">{{ pair.redacted }}</div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  {% if exported %}
+  <div class="card">
+    <h2>Exported files</h2>
+    <p class="card-sub">Safe to share with research and reporting teams.</p>
+    <table class="data-table">
+      <thead>
+        <tr><th>File</th><th style="width:140px; text-align:right;"></th></tr>
+      </thead>
+      <tbody>
+        {% for name in exported %}
+        <tr>
+          <td><code>{{ name }}</code></td>
+          <td style="text-align:right;"><a href="{{ url_for('download_redacted', filename=name) }}" class="btn btn-secondary">Download</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+{% endblock %}

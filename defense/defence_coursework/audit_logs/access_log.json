@@ -31,5 +31,508 @@
   {
     "timestamp": "2026-04-16 10:57:43",
     "event": "failed_login"
+  },
+  {
+    "timestamp": "2026-04-22 00:34:56",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 00:38:31",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 00:43:43",
+    "event": "logout",
+    "user": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 00:44:02",
+    "event": "failed_login",
+    "detail": "wrong_password",
+    "attempted_user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 00:44:30",
+    "event": "failed_login",
+    "detail": "wrong_password",
+    "attempted_user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 00:44:46",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 01:04:39",
+    "event": "logout",
+    "user": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 01:04:55",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 01:05:07",
+    "event": "logout",
+    "user": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 01:05:18",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 01:14:49",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:27:41",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 01:27:41",
+    "user": "admin1",
+    "role": "admin",
+    "event": "retention_purge",
+    "removed": 0,
+    "policy_days": 365
+  },
+  {
+    "timestamp": "2026-04-22 01:27:41",
+    "user": "admin1",
+    "role": "admin",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:35:37",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:35:40",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:35:43",
+    "event": "logout",
+    "user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 01:36:08",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 01:36:11",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:36:13",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 01:40:06",
+    "event": "logout",
+    "user": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 01:40:24",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 01:40:27",
+    "user": "admin1",
+    "role": "admin",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:41:03",
+    "user": "admin1",
+    "role": "admin",
+    "event": "consent_given",
+    "purpose": "raw_record_access"
+  },
+  {
+    "timestamp": "2026-04-22 01:43:04",
+    "user": "admin1",
+    "role": "admin",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 01:43:04",
+    "user": "admin1",
+    "role": "admin",
+    "event": "monitor_scan",
+    "detail": "14 threats detected"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "unauthorised_access_attempt",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:30:15",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:37:52",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:37:52",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:37:52",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "research_export_generated"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:10",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:10",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:10",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "unauthorised_access_attempt",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:10",
+    "event": "logout",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:10",
+    "event": "failed_login",
+    "attempted_user": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 02:39:44",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:50:31",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:50:31",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:50:31",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:50:31",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:50:31",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "unauthorised_access_attempt",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:51:43",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:52:23",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:52:39",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:53:41",
+    "event": "logout",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:53:59",
+    "event": "failed_login",
+    "attempted_user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 02:54:15",
+    "event": "failed_login",
+    "attempted_user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "unauthorised_access_attempt",
+    "file": "audit_log"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "event": "logout",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "unauthorised_access_attempt",
+    "file": "audit_log"
+  },
+  {
+    "timestamp": "2026-04-22 02:55:58",
+    "user": "researcher1",
+    "role": "researcher",
+    "event": "unauthorised_access_attempt",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-22 02:56:46",
+    "event": "failed_login",
+    "attempted_user": "researcher1"
+  },
+  {
+    "timestamp": "2026-04-22 02:57:07",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:57:12",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 02:57:23",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:57:43",
+    "event": "logout",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 02:58:31",
+    "event": "login_success",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 02:58:40",
+    "event": "logout",
+    "user": "researcher1",
+    "role": "researcher"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "unauthorised_access_attempt",
+    "file": "security_console"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "user": "doctorRK",
+    "role": "doctor",
+    "event": "unauthorised_access_attempt",
+    "file": "security_console"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 03:02:09",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 03:05:24",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 14:21:01",
+    "event": "logout",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-22 14:21:12",
+    "event": "login_success",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 14:21:15",
+    "event": "logout",
+    "user": "doctorRK",
+    "role": "doctor"
+  },
+  {
+    "timestamp": "2026-04-22 14:21:27",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-23 19:18:24",
+    "event": "login_success",
+    "user": "admin1",
+    "role": "admin"
+  },
+  {
+    "timestamp": "2026-04-23 19:18:26",
+    "user": "admin1",
+    "role": "admin",
+    "event": "record_accessed",
+    "file": "patient_001.txt.enc"
+  },
+  {
+    "timestamp": "2026-04-23 19:18:28",
+    "user": "admin1",
+    "role": "admin",
+    "event": "record_accessed",
+    "file": "patient_002.txt.enc"
   }
 ]

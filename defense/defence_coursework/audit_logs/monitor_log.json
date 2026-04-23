@@ -12,5 +12,93 @@
     "timestamp": "2026-04-16 11:00:25",
     "event": "malware_alert",
     "file": "testfile.locked"
+  },
+  {
+    "timestamp": "2026-04-22 02:28:55",
+    "event": "monitor_scan_clean",
+    "triggered_by": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 02:31:19",
+    "event": "monitor_scan_clean",
+    "triggered_by": "doctorRK"
+  },
+  {
+    "timestamp": "2026-04-22 02:38:02",
+    "event": "malware_alert",
+    "file": "ransom.locked",
+    "source": "background_scanner"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "malware_alert",
+    "file": "ransom.locked",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:00:01",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:05:28",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:01",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:02",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:25",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:25",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:26",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:26",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:06:26",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:07:13",
+    "event": "malware_alert",
+    "file": "ransom.locked",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 03:07:38",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
+  },
+  {
+    "timestamp": "2026-04-22 14:20:59",
+    "event": "monitor_scan_clean",
+    "triggered_by": "admin1"
   }
 ]

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{% block title %}NHS Clinical Records{% endblock %}</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Frutiger", "Arial", sans-serif;
+      background: #f0f4f5;
+      color: #212b32;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    a { color: #005eb8; }
+
+    .nhs-bar {
+      background: #003087;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .nhs-logo {
+      background: #fff;
+      color: #003087;
+      font-size: 20px;
+      font-weight: 900;
+      padding: 3px 9px;
+      letter-spacing: -1px;
+      border-radius: 2px;
+    }
+    .nhs-bar-title {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .nhs-bar-spacer { flex: 1; }
+    .nhs-user {
+      color: #d1dbe8;
+      font-size: 13px;
+    }
+    .nhs-user strong { color: #fff; font-weight: 600; }
+    .nhs-user a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 16px;
+      padding-left: 16px;
+      border-left: 1px solid #4c6272;
+    }
+    .nhs-user a:hover { text-decoration: underline; }
+
+    nav.subnav {
+      background: #fff;
+      border-bottom: 1px solid #d8dde0;
+      padding: 0 24px;
+      display: flex;
+      gap: 0;
+      overflow-x: auto;
+    }
+    nav.subnav a {
+      color: #4c6272;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 13px 18px;
+      border-bottom: 3px solid transparent;
+      white-space: nowrap;
+    }
+    nav.subnav a:hover { color: #003087; background: #f7f9fa; }
+    nav.subnav a.active {
+      color: #003087;
+      border-bottom-color: #003087;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 28px 24px 48px;
+    }
+
+    h1.page-title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+    p.page-subtitle {
+      color: #4c6272;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #d8dde0;
+      border-top: 3px solid #003087;
+      border-radius: 2px;
+      padding: 22px 26px;
+      margin-bottom: 18px;
+    }
+    .card h2 {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .card .card-sub {
+      color: #4c6272;
+      font-size: 13px;
+      margin-bottom: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 9px 16px;
+      background: #007f3b;
+      color: #fff;
+      border: none;
+      border-radius: 2px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.12s;
+      font-family: inherit;
+    }
+    .btn:hover { background: #00662f; }
+    .btn.btn-secondary {
+      background: #fff;
+      color: #003087;
+      border: 1px solid #003087;
+      padding: 8px 15px;
+    }
+    .btn.btn-secondary:hover { background: #eef3fb; }
+
+    .alert {
+      padding: 12px 16px;
+      border-radius: 2px;
+      font-size: 14px;
+      margin-bottom: 18px;
+      border-left: 4px solid;
+    }
+    .alert-error { background: #fde8e6; border-color: #d5281b; color: #8b1a10; }
+    .alert-success { background: #e3f5e8; border-color: #007f3b; color: #005a2a; }
+    .alert-warn { background: #fff4d6; border-color: #b58900; color: #6b5300; }
+    .alert-info { background: #e8f1fb; border-color: #005eb8; color: #003087; }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    table.data-table th {
+      text-align: left;
+      padding: 9px 12px;
+      background: #f7f9fa;
+      color: #4c6272;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid #d8dde0;
+    }
+    table.data-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eaeef0;
+      vertical-align: top;
+    }
+    table.data-table tr:last-child td { border-bottom: none; }
+    table.data-table tr:hover td { background: #fafcfd; }
+
+    code, .mono {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 2px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .tag-doctor { background: #e0ecff; color: #003087; }
+    .tag-admin { background: #ffe8d4; color: #8a3d00; }
+    .tag-researcher { background: #efe0ff; color: #4b1a75; }
+    .tag-ok { background: #e3f5e8; color: #005a2a; }
+    .tag-fail { background: #fde8e6; color: #8b1a10; }
+    .tag-warn { background: #fff4d6; color: #6b5300; }
+
+    .code-block {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      background: #212b32;
+      color: #f0f4f5;
+      padding: 14px 16px;
+      border-radius: 2px;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-break: break-all;
+      line-height: 1.55;
+    }
+    .code-block.code-light {
+      background: #f7f9fa;
+      color: #212b32;
+      border: 1px solid #d8dde0;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .split > div h3 {
+      font-size: 12px;
+      font-weight: 700;
+      color: #4c6272;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: #4c6272;
+      margin-bottom: 20px;
+    }
+    .meta-row .meta-item strong {
+      color: #212b32;
+      font-weight: 600;
+    }
+
+    footer {
+      background: #003087;
+      color: #aec6cf;
+      font-size: 12px;
+      text-align: center;
+      padding: 14px;
+    }
+
+    @media (max-width: 720px) {
+      .split { grid-template-columns: 1fr; }
+      .meta-row { gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nhs-bar">
+    <div class="nhs-logo">NHS</div>
+    <div class="nhs-bar-title">Clinical Records</div>
+    <div class="nhs-bar-spacer"></div>
+    {% if user %}
+      <div class="nhs-user">
+        <strong>{{ user.username }}</strong> · {{ user.role }}
+        <a href="{{ url_for('logout') }}">Sign out</a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if user %}
+  <nav class="subnav">
+    <a href="{{ url_for('dashboard') }}" class="{% if active == 'dashboard' %}active{% endif %}">Records</a>
+    <a href="{{ url_for('research_export') }}" class="{% if active == 'research' %}active{% endif %}">Research Export</a>
+    {% if user.role == 'admin' %}
+    <a href="{{ url_for('audit') }}" class="{% if active == 'audit' %}active{% endif %}">Security Console</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    NHS Digital · Clinical Records v1.0 · Authorised use only. All activity is logged.
+  </footer>
+
+</body>
+</html>
